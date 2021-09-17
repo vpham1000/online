@@ -1,0 +1,182 @@
+body{
+    background-color: #121212;
+}
+
+.home{
+    display: flex;
+    padding: 90px 0px 0px 70px;
+}
+
+.gothicfont{
+    font-family: letter-gothic-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #f0f0f0;
+}
+.introparagraph{
+    width: 300px;
+    padding: 40px 0px 0px 80px;
+    font-size: 15px;
+}
+.navlinks{
+    padding-top: 30px;
+}
+.navlinks a{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    color: #f0f0f0;
+}
+.headerlinks{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 0px 40px;
+}
+
+.headerlinks a{
+    color: #f0f0f0;
+}
+
+/*start of interests page */
+
+.garamondfont{
+    font-family: adobe-garamond-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #f0f0f0;
+}
+.photo{
+    height: 660px;
+    padding-top: 90px;
+
+}
+
+.photoparagraph{
+    padding: 0px 160px 0px 160px;
+}
+
+.photosection{
+    text-align: center;
+    padding: 0px 150px 70px 150px;
+}
+
+.interestsection{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    height: 700px;
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+.extrasection{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.resumesection{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#resume{
+    width: 700px;
+}
+
+/*start of projects page */
+
+
+.section_start{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px 130px 0px 130px;
+    
+}
+
+.mostwebsite{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 110px 50px 120px;
+    gap: 20px;
+}
+
+.mostwebsitelinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.accordion_button{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #121212;
+    color: #FFFFFF;
+    text-align: left;
+    transition: background 0.2s;
+
+}
+
+.accordion_button::after{
+    font-size: 15px;
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+
+.accordion_button--active + .accordion_content {display : block}
+.accordion_button--active{background: #555555}
+.accordion_button--active::after{content: '\25b4'}
+
+.accordion_content{
+    /*
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s;
+    */
+
+    padding: 0 15px 70px 0px;
+    background: #000000;
+    display: none;
+    overflow:auto;
+}
+.accordion_content p{
+    margin: 70px 70px 70px 70px;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 10px 0px 10px 0px;
+    border: #585858;
+    border-style: dotted;
+    text-align: center;
+}
+
+.titlepic{
+    text-align: center;
+    padding-top: 50px;
+}
